@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 VAR=$(echo $1 | sed y,.,/,)
 echo "creando carpeta ... $1"
 echo $VAR
